@@ -1,5 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(
+<div>
+  <h1>mountainTopCoding(&#9968;);</h1>
+</div>, 
+
+document.getElementById('root'));
+
+/* import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -23,4 +32,5 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
+*/
