@@ -1,13 +1,18 @@
 import React from 'react';
 
-function LetsGo() {
-    return (
-        <div className = "shwank">
-            <body>
-            	<h1>mountainTopCoding(&#9968;);</h1>
-            </body>
-        </div>
-    )
-};
+class Fatty extends Component {
+    state = {
+        firstName: "",
+        location: ""
+    }    
 
-export default Fatty;
+render() {
+    return (
+        <main>
+            <h1>mountainTopCoding(&#9968;);</h1>
+            <p>Welcome {this.state.firstName} from {this.state.location} to mountainTopCoding(&#9968;);</p>
+        </main>
+    )
+}
+
+export default Fatty
