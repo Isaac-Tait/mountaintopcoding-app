@@ -64,13 +64,16 @@ function Topics() {
       <h2>Stuff</h2>
       <ul>
         <li>
-          <Link to={`${url}/rendering`}>Theology</Link>
+          <Link to={`${url}/theology`}>Theology</Link>
         </li>
         <li>
-          <Link to={`${url}/components`}>Components</Link>
+          <Link to={`${url}/gravel-cycling`}>Gravel cycling</Link>
         </li>
         <li>
-          <Link to={`${url}/props-v-state`}>Props v. State</Link>
+          <Link to={`${url}/backcountry-skiing`}>Backcountry skiing</Link>
+        </li>
+        <li>
+          <link to={'${url}/tenkara'}>Tenkara</link>
         </li>
       </ul>
 
