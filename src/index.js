@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LetsGo from './LetsGo.js';
+import Fatty from './Fatty.js';
 
-ReactDOM.render(<LetsGo />, document.getElementById('root'));
+ReactDOM.render(<Fatty />, document.getElementById('root'));
