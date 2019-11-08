@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import navBar from './navBar.js'
+import NavBar from './NavBar.js'
 
 class Fatty extends Component {
     state = {
@@ -17,7 +17,7 @@ handleChange = (event) => {
 render() {
     return (
         <main>
-        <navBar />
+        <NavBar />
             <input
                 type="text"
                 value={this.state.firstName}
