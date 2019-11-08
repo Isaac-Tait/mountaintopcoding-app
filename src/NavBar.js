@@ -73,7 +73,7 @@ function Topics() {
           <Link to={`${url}/backcountry-skiing`}>Backcountry skiing</Link>
         </li>
         <li>
-          <link to={`${url}/tenkara`}>Tenkara</link>
+          <Link to={`${url}/tenkara`}>Tenkara</Link>
         </li>
       </ul>
 
