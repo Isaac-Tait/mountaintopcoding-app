@@ -17,21 +17,23 @@ class NavBar extends Component {
       render() {
         return (
           <Sidebar
-            sidebar={
-            <h4>Menu</h4>
-              <ol>
-                <li>Theology</li>
-                <li>Tenkara</li>
-                <li>Gravel Cycling</li>
-                <li>Backcountry Skiing</li>
-              </ol>
+            sidebar = {
+            <div>
+              <h4>Menu</h4>
+                <ul>
+                  <li>Theology</li>
+                  <li>Tenkara</li>
+                  <li>Gravel Cycling</li>
+                  <li>Backcountry Skiing</li>
+                </ul>
+              </div>
           }
             open={this.state.sidebarOpen}
             onSetOpen={this.onSetSidebarOpen}
             styles={{ sidebar: { background: "white" } }}
           >
             <button onClick={() => this.onSetSidebarOpen(true)}>
-              Open sidebar
+              Open menu
             </button>
           </Sidebar>
         );

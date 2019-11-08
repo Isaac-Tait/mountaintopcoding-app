@@ -17,7 +17,10 @@ handleChange = (event) => {
 render() {
     return (
         <main>
-        <NavBar />
+            <header>
+                <NavBar />
+            </header>
+        
             <input
                 type="text"
                 value={this.state.firstName}
