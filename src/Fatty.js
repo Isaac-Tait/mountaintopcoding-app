@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import navBar from './navBar.js'
 
 class Fatty extends Component {
     state = {
@@ -16,7 +17,7 @@ handleChange = (event) => {
 render() {
     return (
         <main>
-        <h1>mountainTopCoding(&#9968;);</h1>
+        <navBar />
             <input
                 type="text"
                 value={this.state.firstName}
