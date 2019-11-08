@@ -7,7 +7,7 @@ class Fatty extends Component {
     }    
 
 handleChange(event) {
-    const {name} = event.target
+    const {name, value, type} = event.target
     type === "checkbox" ? state({ [name]: checked }) : state({ [name]: value })
 }
 
