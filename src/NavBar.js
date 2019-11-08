@@ -26,7 +26,7 @@ export default function NestingExample() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/topics">Stuff</Link>
+            <Link to="/topics">Topics</Link>
           </li>
         </ul>
 
@@ -61,7 +61,7 @@ function Topics() {
 
   return (
     <div>
-      <h2>Stuff</h2>
+      <h2>Topics</h2>
       <ul>
         <li>
           <Link to={`${url}/theology`}>Theology</Link>
