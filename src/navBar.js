@@ -17,7 +17,15 @@ class NavBar extends Component {
       render() {
         return (
           <Sidebar
-            sidebar={<b>Sidebar content</b>}
+            sidebar={
+            <h4>Menu</h4>
+              <ol>
+                <li>Theology</li>
+                <li>Tenkara</li>
+                <li>Gravel Cycling</li>
+                <li>Backcountry Skiing</li>
+              </ol>
+          }
             open={this.state.sidebarOpen}
             onSetOpen={this.onSetSidebarOpen}
             styles={{ sidebar: { background: "white" } }}
