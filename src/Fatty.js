@@ -8,7 +8,7 @@ class Fatty extends Component {
 
 handleChange(event) {
     const {name} = event.target
-    type === "checkbox" ? this.setState({ [name]: checked }) : this.setState({ [name]: value })
+    type === "checkbox" ? State({ [name]: checked }) : State({ [name]: value })
 }
 
 render() {
@@ -29,7 +29,7 @@ render() {
                 placeholder="Where are you from?"
                 onChange={this.handleChange}
             />
-            
+
             <h1>mountainTopCoding(&#9968;);</h1>
             <p>Welcome {this.state.firstName} from {this.state.location} to mountainTopCoding(&#9968;);</p>
         </main>
