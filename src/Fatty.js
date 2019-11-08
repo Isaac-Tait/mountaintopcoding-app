@@ -16,22 +16,22 @@ handleChange = (event) => {
 render() {
     return (
         <main>
+        <h1>mountainTopCoding(&#9968;);</h1>
             <input
                 type="text"
                 value={this.state.firstName}
                 name="firstName"
                 onChange={this.handleChange}
             /> What is your first name?
-
+<br />
             <input 
                 type="text"
                 value={this.state.location}
                 name="location"
                 onChange={this.handleChange}
             /> Where are you from?
-
-            <h1>mountainTopCoding(&#9968;);</h1>
-            <p>Welcome {this.state.firstName} from {this.state.location} to mountainTopCoding(&#9968;);</p>
+<br />
+        <p>Welcome {this.state.firstName} from {this.state.location} to mountainTopCoding(&#9968;);</p>
         </main>
         )
     }
