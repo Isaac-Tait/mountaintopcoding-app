@@ -18,14 +18,14 @@ render() {
         <main>
             <input
                 type="text"
-                value={state.firstName}
+                value={this.state.firstName}
                 name="firstName"
                 onChange={this.handleChange}
             /> What is your first name?
 
             <input 
                 type="text"
-                value={state.location}
+                value={this.state.location}
                 name="location"
                 onChange={this.handleChange}
             /> Where are you from?
