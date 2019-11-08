@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar.js'
 import Header from './Header.js'
+import Home from './Home.js'
 
 class Fatty extends Component {
     state = {
@@ -21,7 +22,7 @@ render() {
             <Header />
             <NavBar />
             <Home />
-            
+
         </main>
         )
     }
