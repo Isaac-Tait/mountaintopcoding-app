@@ -6,9 +6,11 @@ class Fatty extends Component {
         location: ""
     }    
 
-handleChange(event) {
-    const {name, value, type} = event.target
-    type === "checkbox" ? state({ [name]: checked }) : state({ [name]: value })
+handleChange = (event) => {
+    const {name, value} = event.target
+    this.setState({
+        [name]: value
+    })
 }
 
 render() {
