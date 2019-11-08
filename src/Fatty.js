@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar.js'
+import Header from './Header.js'
 
 class Fatty extends Component {
     state = {
@@ -17,9 +18,8 @@ handleChange = (event) => {
 render() {
     return (
         <main>
-            <header>
-                <NavBar />
-            </header>
+            <Header />
+            <NavBar />
         
             <input
                 type="text"
