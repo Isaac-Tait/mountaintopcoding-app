@@ -1,4 +1,4 @@
-import React from "react"
+import React, {Component} from "react"
 import {
   Route,
   NavLink,
@@ -16,6 +16,9 @@ class NavBar extends Component {
       <HashRouter>
         <h2>Topics</h2>
         <ul className="header">
+          <li>
+            <NavLink to="/Home">Home</NavLink>
+          </li>
           <li>
             <NavLink to="/Theology">Theology</NavLink>
           </li>
@@ -41,3 +44,5 @@ class NavBar extends Component {
     )
   }
 }
+
+export default NavBar
