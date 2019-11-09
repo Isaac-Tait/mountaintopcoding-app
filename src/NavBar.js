@@ -34,6 +34,7 @@ class NavBar extends Component {
         </ul>
   
         <div className="content">
+          <Route exact path = "/" component={Home}/>
           <Route path = "/Theology" component={Theology}/>
           <Route path = "/GravelCycling" component={GravelCycling}/>
           <Route path = "/BackcountrySkiing" component={BackcountrySkiing}/>
