@@ -5,17 +5,14 @@ import {
   Route,
   Link,
   useParams,
-  useRouteMatch
+  useRouteMatch,
+  NavLink,
+  HashRouter
 } from "react-router-dom";
-
-// Since routes are regular React components, they
-// may be rendered anywhere in the app, including in
-// child elements.
-//
-// This helps when it's time to code-split your app
-// into multiple bundles because code-splitting a
-// React Router app is the same as code-splitting
-// any other React app.
+import Theology from './Theology.js'
+import GravelCycling from './GravelCycling.js'
+import BackcountrySkiing from './BackcountrySkiing.js'
+import Tenkara from './Tenkara.js'
 
 export default function NestingExample() {
   return (
@@ -60,33 +57,32 @@ function Topics() {
   let { path, url } = useRouteMatch();
 
   return (
-    <div>
+    <HashRouter>
       <h2>Topics</h2>
       <ul>
         <li>
-          <Link to={`${url}/theology`}>Theology</Link>
+          <NavLink to="/Theology.js">Theology</NavLink>
         </li>
         <li>
-          <Link to={`${url}/gravel-cycling`}>Gravel cycling</Link>
+          <NavLink to="/GravelCycling.js">Gravel Cycling</NavLink>
         </li>
         <li>
-          <Link to={`${url}/backcountry-skiing`}>Backcountry skiing</Link>
+          <NavLink to="/BackcountrySkiing.js">Backcountry Skiing</NavLink>
         </li>
         <li>
-          <Link to={`${url}/tenkara`}>Tenkara</Link>
+          <NavLink to="/Tenkara.js">Tenkara</NavLink>
         </li>
       </ul>
 
       <Switch>
-        <Route exact path={path}>
-          <h3>Please select a topic.</h3>
-        </Route>
-        <Route path={`${path}/:topicId`}>
-          <Topic />
-        </Route>
-      </Switch>
-    </div>
-  );
+        <Route path = "/Theology" component={Theology}>
+        <Route path = "/GravelCycling" component={GravelCycling}>
+        <Route path = "/BackcountrySkiing" component={BackcountrySkiing}>
+        <Route path = "/Tenkara" component={Tenkara}>
+          
+        </Switch>
+    </HashRouter>
+  )
 }
 
 function Topic() {
