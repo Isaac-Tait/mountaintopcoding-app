@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar.js'
 import Header from './Header.js'
-import Home from './Home.js'
 
 class Fatty extends Component {
     state = {
@@ -21,8 +20,21 @@ render() {
         <main>
             <Header />
             <NavBar />
-            <Home />
-
+            <input
+                type="text"
+                value={this.state.firstName}
+                name="firstName"
+                onChange={this.handleChange}
+            /> What is your first name?
+            <br />
+            <input 
+                type="text"
+                value={this.state.location}
+                name="location"
+                onChange={this.handleChange}
+            /> Where are you from?
+            <br />
+            <p>Welcome {this.state.firstName} from {this.state.location} to mountainTopCoding(&#9968;);</p>
         </main>
         )
     }
