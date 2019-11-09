@@ -5,6 +5,7 @@ import {
   HashRouter
 } from "react-router-dom"
 
+import Home from './Home.js'
 import Theology from './Theology.js'
 import GravelCycling from './GravelCycling.js'
 import BackcountrySkiing from './BackcountrySkiing.js'
@@ -34,7 +35,7 @@ class NavBar extends Component {
         </ul>
   
         <div className="content">
-          <Route exact path = "/" component={Home}/>
+          <Route exact path = "/Home" component={Home}/>
           <Route path = "/Theology" component={Theology}/>
           <Route path = "/GravelCycling" component={GravelCycling}/>
           <Route path = "/BackcountrySkiing" component={BackcountrySkiing}/>
