@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from './NavBar.js'
 import Header from './Header.js'
 
-function Fatty() {
+function Main() {
     return (
         <main>
             <Header />
@@ -31,4 +31,4 @@ function Fatty() {
         )
 }
 
-export default Fatty
+export default Main
