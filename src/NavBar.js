@@ -15,6 +15,8 @@ class NavBar extends Component {
   
   render() {
     return (
+      <div>
+      <img className="image" src="https://mountaintop-coding.s3-us-west-1.amazonaws.com/images/Mountain+Top.JPG"alt="Mt. Baldy as seen from Pine Peak near Los Angeles"/>
       <HashRouter>
         <h2>Topics</h2>
         <ul className="header">
@@ -44,6 +46,7 @@ class NavBar extends Component {
             
           </div>
       </HashRouter>
+      </div>
     )
   }
 }
