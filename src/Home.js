@@ -7,7 +7,16 @@ class Home extends Component {
                 firstName: "",
                 location: ""
             }
+            this.handleChange = this.handleChange.bind(this)
         }
+
+        handleChange(event) {
+            const { name, value } = event.target
+            this.setState({
+                [name]: value
+            })
+        }
+
         render() {
             return (
                 <div>
