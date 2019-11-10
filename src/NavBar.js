@@ -12,6 +12,7 @@ import BackcountrySkiing from './BackcountrySkiing.js'
 import Tenkara from './Tenkara.js'
 
 class NavBar extends Component {
+  
   render() {
     return (
       <HashRouter>
