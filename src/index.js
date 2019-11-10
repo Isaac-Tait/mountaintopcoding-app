@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Fatty from './Fatty.js';
+import Main from './Main.js';
 
 // function index() {
 //     return (
@@ -15,4 +15,4 @@ import Fatty from './Fatty.js';
 //     )
 // }
 
-ReactDOM.render(<Fatty />, document.getElementById('root'));
+ReactDOM.render(<Main />, document.getElementById('root'));
