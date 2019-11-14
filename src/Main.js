@@ -27,6 +27,10 @@ function Main() {
                 <li><strong>Continue to fine tune my web development skills with a lot of practice.</strong> This is the part where I get to put all my newfound skills to work in one place. It has been fun to keep track of my learning journey by journaling almost everyday. 
                     some days, and even some weeks, I have struggled to even turn my computer on. While other weeks I stay up for hours at night furiously banging away on my keyboard.</li>
             </ol>
+            <ul>
+                <li><a href="https://twitter.com/Isaac_Tait_83" rel="me">@Isaac_Tait on Twitter</a></li>
+                <li><a href="https://github.com/Isaac-Tait" rel="me">Github</a></li>
+            </ul>
         </main>
         )
 }
