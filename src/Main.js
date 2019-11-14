@@ -28,7 +28,7 @@ function Main() {
                     some days, and even some weeks, I have struggled to even turn my computer on. While other weeks I stay up for hours at night furiously banging away on my keyboard.</li>
             </ol>
             <ul>
-                <li><a href="https://twitter.com/Isaac_Tait_83" rel="me">@Isaac_Tait on Twitter</a></li>
+                <li><a href="https://twitter.com/Isaac_Tait_83" rel="me">Twitter</a></li>
                 <li><a href="https://github.com/Isaac-Tait" rel="me">Github</a></li>
             </ul>
         </main>
