@@ -25,7 +25,7 @@ function Main() {
                 <li><strong>Learn JavaScript</strong> - I tried once before using a book I purchased at Barnes & Noble. The book was thicker than my Bible and <strong>much</strong> more dry. Let us hope this time around the learning process goes a little better.</li>
                 <li><strong>Learn React</strong>After much debate and innner turmoil I finally settled on a framework to focus the lionshare of my learning efforts on.</li>
                 <li><strong>Continue to fine tune my web development skills with a lot of practice.</strong> This is the part where I get to put all my newfound skills to work in one place. It has been fun to keep track of my learning journey by journaling almost everyday. 
-                    some days, and even some weeks, I have struggled to even turn my computer on. While other weeks I stay up for hours at night furiously banging away on my keyboard.</li>
+                    Some days, and even some weeks, I have struggled to even turn my computer on. While other weeks I stay up for hours at night furiously banging away on my keyboard.</li>
             </ol>
             <ul>
                 <li><a href="https://twitter.com/Isaac_Tait_83" rel="me">Twitter</a></li>
