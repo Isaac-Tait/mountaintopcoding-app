@@ -21,7 +21,7 @@ class NavBar extends Component {
         <h2>Topics</h2>
         <ul className="header">
           <li>
-            <NavLink to="/Home">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
             <NavLink to="/Theology">Theology</NavLink>
@@ -38,7 +38,7 @@ class NavBar extends Component {
         </ul>
   
         <div className="content">
-          <Route exact path = "/Home" component={Home}/>
+          <Route exact path = "/" component={Home}/>
           <Route path = "/Theology" component={Theology}/>
           <Route path = "/GravelCycling" component={GravelCycling}/>
           <Route path = "/BackcountrySkiing" component={BackcountrySkiing}/>
