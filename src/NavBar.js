@@ -10,6 +10,7 @@ import Theology from './Theology.js'
 import GravelCycling from './GravelCycling.js'
 import BackcountrySkiing from './BackcountrySkiing.js'
 import Tenkara from './Tenkara.js'
+import About from './About.js'
 
 class NavBar extends Component {
   
@@ -22,6 +23,9 @@ class NavBar extends Component {
         <ul className="header">
           <li>
             <NavLink to="/">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/About">About</NavLink>
           </li>
           <li>
             <NavLink to="/Theology">Theology</NavLink>
@@ -39,12 +43,12 @@ class NavBar extends Component {
   
         <div className="content">
           <Route exact path = "/" component={Home}/>
+          <Route path = "/About" component={About}/>
           <Route path = "/Theology" component={Theology}/>
           <Route path = "/GravelCycling" component={GravelCycling}/>
           <Route path = "/BackcountrySkiing" component={BackcountrySkiing}/>
           <Route path = "/Tenkara" component={Tenkara}/>
-            
-          </div>
+        </div>
       </HashRouter>
       </div>
     )
