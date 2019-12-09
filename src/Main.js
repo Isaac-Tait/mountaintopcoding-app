@@ -7,6 +7,7 @@ function Main() {
         <main>
             <Header />
             <NavBar />
+
         </main>
         )
 }
