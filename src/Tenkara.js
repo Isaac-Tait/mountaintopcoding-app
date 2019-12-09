@@ -5,8 +5,9 @@ class Tenkara extends Component {
         return (
             <div>
                 <p>
-                    Please visit my site <strong>Fallfish Tenkara</strong> for a three plus year recolection of my tenkara 
-                    adventures in "The Land of the Rising Sun". 
+                    Please visit my site 
+                    <a href="http://www.fallfishtenkara.com" target="_blank" class="external-link" rel="noopener noreferrer"> Fallfish Tenkara, </a> 
+                    for a three plus year recolection of my tenkara adventures in "The Land of the Rising Sun". 
                 </p>
             </div>
         )

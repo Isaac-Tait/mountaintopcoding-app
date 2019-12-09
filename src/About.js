@@ -57,16 +57,20 @@ class About extends Component {
                     </li>
                     <br />
                     <li>
-                        <strong>Complete a Google IT Support Credential Program</strong> - Google.org partnered with Institute for Veterans and Military Families
+                        <strong>Complete a Google IT Support Credential Program</strong> - Google.org partnered with Institute for Veterans and Military Families (IVMF)
                         to provide dependents (spouses of Active duty military personnel) with access to computer IT training. 
                     <br />
-                        "With frequent moves and families to care for while their partners are deployed, military spouses face steep challenges when trying to land a meaningful job." - Jacqueline Fuller (google.org President)
+                        <i>"With frequent moves and families to care for while their partners are deployed, military spouses face steep challenges when trying to land a meaningful job." 
+                        - Jacqueline Fuller (google.org President)</i>
+                    <br />
+                    I can attest to the difficulty in finding meaningful employment as a husband of an active duty service woman. So, I was very grateful for the opportunity to pursue a
+                    credential in IT Support. 
                     </li>
                     <br />
                     <li>
                         <strong>Continue to fine tune my web development skills with a lot of practice</strong> - This is the part where I get to put all my newfound skills to 
                         work in one place. It has been fun to keep track of my learning journey by journaling almost everyday. 
-                        Some days, and even some weeks, I have struggled to even turn my computer on. While other weeks I stay up for hours at night furiously banging away on my keyboard.
+                        Some days, and even some weeks, I have struggled to even turn my computer on. While other weeks I stay up for hours at night furiously typing away on my keyboard.
                     </li>
                 </ol>
             </div>
