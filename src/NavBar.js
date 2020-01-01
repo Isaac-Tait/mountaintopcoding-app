@@ -11,6 +11,7 @@ import GravelCycling from './GravelCycling.js'
 import BackcountrySkiing from './BackcountrySkiing.js'
 import Tenkara from './Tenkara.js'
 import About from './About.js'
+import Coding from './Coding.js'
 
 class NavBar extends Component {
   
@@ -38,6 +39,9 @@ class NavBar extends Component {
           </li>
           <li>
             <NavLink to="/Tenkara">Tenkara</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Coding">Coding</NavLink>
           </li>
         </ul>
   
