@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-class GravelCycling extends Component {
+class Coding extends Component {
     render() {
         return (
             <div>
