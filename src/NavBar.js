@@ -52,6 +52,7 @@ class NavBar extends Component {
           <Route path = "/GravelCycling" component={GravelCycling}/>
           <Route path = "/BackcountrySkiing" component={BackcountrySkiing}/>
           <Route path = "/Tenkara" component={Tenkara}/>
+          <Route path = "/Coding" component={Coding}/>
         </div>
       </HashRouter>
       </div>
