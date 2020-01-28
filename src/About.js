@@ -9,10 +9,10 @@ class About extends Component {
                     <a href="http://www.fallfishtenkara.com" target="_blank" class="external-link" rel="noopener noreferrer"> Fallfish Tenkara, </a> 
                     <a href="http://www.cutthroattenkara.com" target="_blank" class="external-link" rel="noopener noreferrer"> Cutthroat Tenkara </a>, & 
                     <a href="http://www.macadamgrinding.com" target="_blank" class="external-link" rel="noopener noreferrer"> Macadam Grinding </a> 
-                    using the venerable content management system - Wordpress. Through that process of building those sites I became more and more curious 
-                    how Wordpress, and all of its millions of plugins, actually worked. Then in January 2017 my wife and I adopted a baby boy. Overnight our world
+                    using the venerable content management system - WordPress. Through that process of building those sites I became more and more curious 
+                    how WordPress, and all of its millions of plugins, actually worked. Then in January 2017 my wife and I adopted a baby boy. Overnight our world
                     was turned upside down. In the end it made the most sense financially for me to stay at home with our new son while my wife pursued her medical 
-                    career. I would not trade the last three year for anything, watching him grow day in and day out has changed me more deeply than I coudl ever 
+                    career. I would not trade the last three year for anything, watching him grow day in and day out has changed me more deeply than I could ever 
                     put into words. As he has grown I began to realize that soon enough I would need to find a job that did not pay in dirty diapers, snuggles, 
                     late night feedings, and unscheduled hospital visits.
                 <br />
@@ -24,7 +24,7 @@ class About extends Component {
 
                 <h4>Thank you for visiting and stay tuned as I explore my burgeoning skill sets on this medium - <mark>mountainTopCoding(&#9968;);</mark></h4>
                 
-                <h2>My Roadmap</h2>
+                <h2>My Road Map</h2>
 
                 <ol class="coding">
                     <li>
@@ -52,7 +52,7 @@ class About extends Component {
                     </li>
                     <br />
                     <li>
-                        <strong>Learn React</strong> - After much debate and innner turmoil I finally settled on a framework to focus the lionshare of my learning efforts on. I wish I could remember what 
+                        <strong>Learn React</strong> - After much debate and inner turmoil I finally settled on a framework to focus the lion-share of my learning efforts on. I wish I could remember what 
                         exactly made me pick React over Vue or Angular. Scrimba has been an absolutely phenomenal learning resource for this framework. In fact mountainTopCoding(&#9968;); is a React site. 
                     </li>
                     <br />
