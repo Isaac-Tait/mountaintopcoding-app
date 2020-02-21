@@ -5,8 +5,8 @@
 .image {
     border-radius: 50%;
   }
-
-.logo {
+/*
+  .logo {
     height: 100px;
     background-color: #333;
     color: whitesmoke;
@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
 }
-
+*/
 body {
     margin: 0;
 }
