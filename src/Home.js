@@ -43,6 +43,9 @@ class Home extends Component {
                     <a href="https://twitter.com/Isaac_Tait_83">Twitter</a>
                     <br />
                     <a href="https://github.com/Isaac-Tait">GitHub</a>
+                    <br />
+                    <br />
+                    <br />
                 </div>
             )
         }
