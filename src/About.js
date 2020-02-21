@@ -5,6 +5,7 @@ class About extends Component {
     render() {
         return (
             <div>
+                <p>
                     Over the course of the last four years I have built three websites -
                     <a href="http://www.fallfishtenkara.com" target="_blank" class="external-link" rel="noopener noreferrer"> Fallfish Tenkara, </a> 
                     <a href="http://www.cutthroattenkara.com" target="_blank" class="external-link" rel="noopener noreferrer"> Cutthroat Tenkara </a>, & 
