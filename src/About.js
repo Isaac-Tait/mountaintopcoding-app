@@ -4,6 +4,8 @@ class About extends Component {
     render() {
         return (
             <div>
+                <h3>Contact</h3>
+                <p><a href="mailto:isaac@mountaintopcoding.com">Email</a><a href="https://twitter.com/Isaac_Tait_83">Twitter</a><a href="https://github.com/Isaac-Tait">GitHub</a></p>
                 <p>
                     Over the course of the last four years I have built three websites -
                     <a href="http://www.fallfishtenkara.com" target="_blank" class="external-link" rel="noopener noreferrer"> Fallfish Tenkara, </a> 
