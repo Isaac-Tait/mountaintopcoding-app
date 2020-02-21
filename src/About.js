@@ -60,7 +60,7 @@ class About extends Component {
                     <br />
                     <li>
                         <strong>Complete a Google IT Support Credential Program</strong> - Google.org partnered with Institute for Veterans and Military Families 
-                        <a href="https://www.military.com/daily-news/2019/05/13/google-funds-scholarships-spouses-become-it-support-specialists.html" target="_blank" class="external-link" rel="noopener noreferrer"> (IVMF), </a>
+                        <a href="https://www.military.com/daily-news/2019/05/13/google-funds-scholarships-spouses-become-it-support-specialists.html" target="_blank" class="external-link" rel="noopener noreferrer"> (I.V.M.F.), </a>
                         to provide dependents (spouses of Active duty military personnel) with access to computer IT training. 
                     <br />
                         <i>"With frequent moves and families to care for while their partners are deployed, military spouses face steep challenges when trying to land a meaningful job." 
