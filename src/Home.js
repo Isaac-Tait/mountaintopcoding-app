@@ -34,7 +34,14 @@ class Home extends Component {
                         onChange={this.handleChange}
                     /> Where are you from?
                     <br />
-                    <p>Welcome {this.state.firstName} from {this.state.location} to mountainTopCoding(&#9968;);</p>  
+                    <p>Welcome {this.state.firstName} from {this.state.location} to mountainTopCoding(&#9968;);</p>
+
+                    <h3>Contact</h3>
+                    <a href="mailto:isaac@mountaintopcoding.com">Email</a>
+                    <br />
+                    <a href="https://twitter.com/Isaac_Tait_83">Twitter</a>
+                    <br />
+                    <a href="https://github.com/Isaac-Tait">GitHub</a>
                 </div>
             )
         }
