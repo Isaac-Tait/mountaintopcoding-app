@@ -1,9 +1,18 @@
 .header {
-    height: 100px;
+  height: 100px;
 }
+
+/* .content {
+  max-width: 500px;
+  margin: auto;
+} 
+pushes part of the page to the center, but not the NavBar or the image... 🤔
+*/
 
 .image {
     border-radius: 50%;
+    max-width: 500px;
+    margin: auto;
   }
 /*
   .logo {
