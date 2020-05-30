@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+}
+
+b {
+    color: #FFAB0F; /*fou yellowish orange*/
+}
+
+.grid {
+    border-width: 50px;
+    border-color: #02066F; /*facial dark royal blue*/
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ED0DD9; /*tendinous fuchsia*/
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.tetromino {
+    background-color: #FCFC81; /*supplicatory yellowish tan*/
+}
+
+.h1 {
+    color: #47C072; /*beauish dark mint*/
+}
+
+.h2 {
+    color: #08787F; /*screaming deep aqua*/
+}
+
+.mini-grid {
+    margin-left: 25px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ED0DD9; /*tendinous fuchsia*/
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
