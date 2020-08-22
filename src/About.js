@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import './style.css';
 
 class About extends Component {
     render() {
@@ -7,9 +6,23 @@ class About extends Component {
             <div>
                 <p>
                     Over the course of the last four years I have built three websites -
-                    <a href="http://www.fallfishtenkara.com" target="_blank" class="external-link" rel="noopener noreferrer"> Fallfish Tenkara, </a> 
-                    <a href="http://www.cutthroattenkara.com" target="_blank" class="external-link" rel="noopener noreferrer"> Cutthroat Tenkara </a>, & 
-                    <a href="http://www.macadamgrinding.com" target="_blank" class="external-link" rel="noopener noreferrer"> Macadam Grinding </a> 
+                    <a 
+                        href="http://www.fallfishtenkara.com" 
+                        target="_blank" 
+                        class="external-link" 
+                        rel="noopener noreferrer"
+                    > Fallfish Tenkara, </a> 
+                    <a 
+                        href="http://www.cutthroattenkara.com" 
+                        target="_blank" class="external-link" 
+                        rel="noopener noreferrer"
+                    > Cutthroat Tenkara </a>, & 
+                    <a 
+                        href="http://www.macadamgrinding.com" 
+                        target="_blank" 
+                        class="external-link" 
+                        rel="noopener noreferrer"
+                    > Macadam Grinding </a> 
                     using the venerable content management system - WordPress. Through that process of building those sites I became more and more curious 
                     how WordPress, and all of its millions of plugins, actually worked. Then in January 2017 my wife and I adopted a baby boy. Overnight our world
                     was turned upside down. In the end it made the most sense financially for me to stay at home with our new son while my wife pursued her medical 
@@ -27,7 +40,7 @@ class About extends Component {
                 
                 <h2>My Road Map</h2>
 
-                <ol class="coding">
+                <ol class="">
                     <li>
                         <strong>Learn HTML5</strong> - My first experience with computer coding happened when I was 13. A friend's grandfather 
                         offered a Wednesday evening course on HTML2. If I am totally honest though I initially took the course to see his 
@@ -59,7 +72,12 @@ class About extends Component {
                     <br />
                     <li>
                         <strong>Complete a Google IT Support Credential Program</strong> - Google.org partnered with Institute for Veterans and Military Families 
-                        <a href="https://www.military.com/daily-news/2019/05/13/google-funds-scholarships-spouses-become-it-support-specialists.html" target="_blank" class="external-link" rel="noopener noreferrer"> (I.V.M.F.), </a>
+                        <a 
+                            href="https://www.military.com/daily-news/2019/05/13/google-funds-scholarships-spouses-become-it-support-specialists.html" 
+                            target="_blank" 
+                            class="external-link" 
+                            rel="noopener noreferrer"
+                        > (I.V.M.F.), </a>
                         to provide dependents (spouses of Active duty military personnel) with access to computer IT training. 
                     <br />
                         <i>"With frequent moves and families to care for while their partners are deployed, military spouses face steep challenges when trying to land a meaningful job." 

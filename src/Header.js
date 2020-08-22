@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
     return (
-        <div className="logo">
+        <div class="text-3xl">
             <h1>mountainTopCoding(&#9968;);</h1>
         </div>
     )
