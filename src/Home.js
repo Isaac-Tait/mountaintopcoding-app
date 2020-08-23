@@ -25,14 +25,16 @@ class Home extends Component {
                         value={this.state.firstName}
                         name="firstName"
                         onChange={this.handleChange}
-                    /> What is your first name?
+                        placeholder="What is your first name?"
+                    /> 
                     <br />
                     <input 
                         type="text"
                         value={this.state.location}
                         name="location"
                         onChange={this.handleChange}
-                    /> Where are you from?
+                        placeholder="Where are you from?"
+                    /> 
                     <br />
                     <p>Welcome {this.state.firstName} from {this.state.location} to my portfolio site - mountainTopCoding(&#9968;);</p>
                     <div class="p-4 m-4 mx-auto">
