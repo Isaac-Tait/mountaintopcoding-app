@@ -37,9 +37,9 @@ class Home extends Component {
                     /> 
                     <br />
                     <p>Welcome {this.state.firstName} from {this.state.location} to my portfolio site - mountainTopCoding(&#9968;);</p>
-                    <div class="p-4 m-4 mx-auto">
+                    <div class="p-40 m-4 mx-auto">
                         <h3>Contact</h3>
-                        <a href="mailto:isaac@mountaintopcoding.com">Email</a>- - -<a href="https://twitter.com/Isaac_Tait_83">Twitter</a>- - -<a href="https://github.com/Isaac-Tait">GitHub</a>
+                        <a href="mailto:isaac@mountaintopcoding.com">Email </a> - - - <a href="https://twitter.com/Isaac_Tait_83">Twitter </a>- - -<a href="https://github.com/Isaac-Tait"> GitHub</a>
                     </div>
                 </div>
             )
