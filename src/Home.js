@@ -19,7 +19,7 @@ class Home extends Component {
 
         render() {
             return (
-                <div>
+                <div class="mt-8 ml-2">
                   <input
                         type="text"
                         value={this.state.firstName}
@@ -37,9 +37,20 @@ class Home extends Component {
                     /> 
                     <br />
                     <p>Welcome {this.state.firstName} from {this.state.location} to my portfolio site - mountainTopCoding(&#9968;);</p>
-                    <div class="p-40 m-4 mx-auto">
-                        <h3>Contact</h3>
-                        <a href="mailto:isaac@mountaintopcoding.com">Email </a> - - - <a href="https://twitter.com/Isaac_Tait_83">Twitter </a>- - -<a href="https://github.com/Isaac-Tait"> GitHub</a>
+                    <div>
+                        <h3 class="text-3xl pl-4">Contact</h3>
+                        <a 
+                            href="mailto:isaac@mountaintopcoding.com"
+                            class="font-bold text-red-600 pl-6"
+                        >Email </a>
+                        <a 
+                            href="https://twitter.com/Isaac_Tait_83"
+                            class="font-bold text-blue-600 pl-2"
+                        >Twitter </a>
+                        <a 
+                            href="https://github.com/Isaac-Tait"
+                            class="font-bold text-green-600 pl-2"
+                        >GitHub</a>
                     </div>
                 </div>
             )

@@ -19,13 +19,13 @@ class NavBar extends Component {
     return (
       <div>
       <img 
-        class="" 
+        class="rounded-full mx-auto m-6" 
         src="https://mountaintop-coding.s3-us-west-1.amazonaws.com/images/Mountain+Top.JPG"
         alt="Mount Baldy's north flank viewed from Pine Peak near Los Angeles, California."
       />
       <HashRouter>
-        <h2>Topics</h2>
-        <ul>
+        <h2 class="bg-orange-400 text-3xl p-8 underline">Topics</h2>
+        <ul class="pl-12">
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
