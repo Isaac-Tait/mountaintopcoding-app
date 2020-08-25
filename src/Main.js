@@ -1,14 +1,20 @@
 import React from 'react';
-import NavBar from './NavBar.js'
 import Header from './Header.js'
+import Image from './Image.js'
+import NavBar from './NavBar.js'
+import Home from './Home.js'
+import Footer from './Footer.js'
 
 function Main() {
     return (
-        <div class="h-14 bg-gradient-to-r from-orange-400 via-red-500 to-pink-500">
+        <div>
             <Header />
+            <Image />
             <NavBar />
+            <Home /> {/*Disabling this module removes the extra state function on the main page... Why?*/}
+            <Footer /> 
         </div>
-        )
+    )
 }
 
 export default Main
