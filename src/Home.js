@@ -19,7 +19,7 @@ class Home extends Component {
 
         render() {
             return (
-                <div class="mt-8 bg-sayagata">
+                <div>
                   <input
                         type="text"
                         value={this.state.firstName}

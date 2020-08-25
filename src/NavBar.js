@@ -17,9 +17,9 @@ class NavBar extends Component {
   
   render() {
     return (
-      <div>
+      <div class="bg-gray-300 bg-opacity-100">
         <img 
-          class="md:rounded-full mx-auto my-20"
+          class="md:rounded-full mx-auto"
           src="https://mountaintop-coding.s3-us-west-1.amazonaws.com/images/Mountain+Top.JPG"
           alt="Mount Baldy's north flank viewed from Pine Peak near Los Angeles, California."
         />

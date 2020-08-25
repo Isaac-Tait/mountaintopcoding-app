@@ -3490,6 +3490,10 @@ video {
   background-image: none;
 }
 
+.bg-sayagata {
+  background-image: url('/src/img/sayagata.png');
+}
+
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--gradient-color-stops));
 }
@@ -21558,6 +21562,10 @@ video {
     background-image: none;
   }
 
+  .sm\:bg-sayagata {
+    background-image: url('/src/img/sayagata.png');
+  }
+
   .sm\:bg-gradient-to-t {
     background-image: linear-gradient(to top, var(--gradient-color-stops));
   }
@@ -39594,6 +39602,10 @@ video {
 
   .md\:bg-none {
     background-image: none;
+  }
+
+  .md\:bg-sayagata {
+    background-image: url('/src/img/sayagata.png');
   }
 
   .md\:bg-gradient-to-t {
@@ -57634,6 +57646,10 @@ video {
     background-image: none;
   }
 
+  .lg\:bg-sayagata {
+    background-image: url('/src/img/sayagata.png');
+  }
+
   .lg\:bg-gradient-to-t {
     background-image: linear-gradient(to top, var(--gradient-color-stops));
   }
@@ -75670,6 +75686,10 @@ video {
 
   .xl\:bg-none {
     background-image: none;
+  }
+
+  .xl\:bg-sayagata {
+    background-image: url('/src/img/sayagata.png');
   }
 
   .xl\:bg-gradient-to-t {
