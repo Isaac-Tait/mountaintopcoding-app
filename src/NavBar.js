@@ -29,25 +29,25 @@ class NavBar extends Component {
         <h2 class="bg-orange-400 text-3xl pl-8">Topics</h2>
           <ul class="pl-12">
             <li class="mt-6">
-              <NavLink to="/"><span role="img">&#127969;</span> - Home</NavLink>
+              <NavLink to="/"><span role="img" aria-label="Home with garden">&#127969;</span> - Home</NavLink>
             </li>
             <li>
-              <NavLink to="/About"><span role="img">&#10067;</span> - About</NavLink>
+              <NavLink to="/About"><span role="img" aria-label="Question mark">&#10067;</span> - About</NavLink>
             </li>
             <li>
-              <NavLink to="/Theology"><span role="img">&#128220;</span> - Theology</NavLink>
+              <NavLink to="/Theology"><span role="img" aria-label="Scroll">&#128220;</span> - Theology</NavLink>
             </li>
             <li>
-              <NavLink to="/GravelCycling"><span role="img">&#128692;</span> - Gravel Cycling</NavLink>
+              <NavLink to="/GravelCycling"><span role="img" aria-label="Man bicycling">&#128692;</span> - Gravel Cycling</NavLink>
             </li>
             <li>
-              <NavLink to="/BackcountrySkiing"><span role="img">&#9975;</span> - Backcountry Skiing</NavLink>
+              <NavLink to="/BackcountrySkiing"><span role="img" aria-label="Skier">&#9975;</span> - Backcountry Skiing</NavLink>
             </li>
             <li>
-              <NavLink to="/Tenkara"><span role="img">&#127907;</span> - Tenkara</NavLink>
+              <NavLink to="/Tenkara"><span role="img" aria-label="Fishing pole with a fish">&#127907;</span> - Tenkara</NavLink>
             </li>
             <li>
-              <NavLink to="/Coding"><span role="img">&#129516;</span> - Coding</NavLink>
+              <NavLink to="/Coding"><span role="img" aria-label="DNA">&#129516;</span> - Coding</NavLink>
             </li>
           </ul>
           <div>
