@@ -26,28 +26,28 @@ class NavBar extends Component {
 
         <HashRouter>
           
-        <h2 class="bg-orange-400 text-3xl p-8 underline">Topics</h2>
+        <h2 class="bg-orange-400 text-3xl pl-8">Topics</h2>
           <ul class="pl-12">
-            <li>
-              <NavLink to="/">Home</NavLink>
+            <li class="mt-6">
+              <NavLink to="/">&#127969; - Home</NavLink>
             </li>
             <li>
-              <NavLink to="/About">About</NavLink>
+              <NavLink to="/About">&#10067; - About</NavLink>
             </li>
             <li>
-              <NavLink to="/Theology">Theology</NavLink>
+              <NavLink to="/Theology">&#128220; - Theology</NavLink>
             </li>
             <li>
-              <NavLink to="/GravelCycling">Gravel Cycling</NavLink>
+              <NavLink to="/GravelCycling">&#128692; - Gravel Cycling</NavLink>
             </li>
             <li>
-              <NavLink to="/BackcountrySkiing">Backcountry Skiing</NavLink>
+              <NavLink to="/BackcountrySkiing">&#9975; - Backcountry Skiing</NavLink>
             </li>
             <li>
-              <NavLink to="/Tenkara">Tenkara</NavLink>
+              <NavLink to="/Tenkara">&#127907; - Tenkara</NavLink>
             </li>
             <li>
-              <NavLink to="/Coding">Coding</NavLink>
+              <NavLink to="/Coding">&#129516; - Coding</NavLink>
             </li>
           </ul>
           <div>

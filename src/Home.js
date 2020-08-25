@@ -21,6 +21,7 @@ class Home extends Component {
             return (
                 <div>
                   <input
+                        class="mt-8 ml-2"
                         type="text"
                         value={this.state.firstName}
                         name="firstName"
@@ -29,6 +30,7 @@ class Home extends Component {
                     /> 
                     <br />
                     <input 
+                        class="mt-4 ml-2"
                         type="text"
                         value={this.state.location}
                         name="location"
@@ -36,12 +38,12 @@ class Home extends Component {
                         placeholder="Where are you from?"
                     /> 
                     <br />
-                    <p class="mt-6">Welcome <span class="text-red-500">{this.state.firstName}</span> from <span class="text-red-500">{this.state.location}</span> to my portfolio site - mountainTopCoding(&#9968;);</p>
+                    <p class="mt-6 ml-2">Welcome <span class="text-red-500">{this.state.firstName}</span> from <span class="text-red-500">{this.state.location}</span> to my portfolio site - mountainTopCoding(&#9968;);</p>
                     <div>
-                        <h3 class="text-3xl bg-pink-500">Contact</h3>
+                        <h3 class="text-3xl bg-pink-500 pl-8">Contact</h3>
                         <a 
                             href="mailto:isaac@mountaintopcoding.com"
-                            class="font-bold text-red-600 pl-6"
+                            class="font-bold text-red-600 ml-8 pl-2"
                         >Email </a>
                         <a 
                             href="https://twitter.com/Isaac_Tait_83"
