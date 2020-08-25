@@ -2,24 +2,25 @@ import React from "react"
 import {
   Route,
   NavLink,
-  HashRouter
+  BrowserRouter
 } from "react-router-dom"
 
 import Home from './Home.js'
+import About from './About.js'
 import Theology from './Theology.js'
 import GravelCycling from './GravelCycling.js'
 import BackcountrySkiing from './BackcountrySkiing.js'
 import Tenkara from './Tenkara.js'
-import About from './About.js'
 import Coding from './Coding.js'
 
 function NavBar() {
     return (
-        <HashRouter>
+      <BrowserRouter>
+        <div>
           <h2 class="bg-orange-400 text-3xl pl-8">Topics</h2>
             <ul class="pl-12">
-              <li class="mt-6">
-                <NavLink to="/"><span role="img" aria-label="Home with garden">&#127969;</span> - Home</NavLink>
+              <li>
+                <NavLink to="/"><span role="img" aria-label="Home with garden"></span> - Home</NavLink>
               </li>
               <li>
                 <NavLink to="/About"><span role="img" aria-label="Question mark">&#10067;</span> - About</NavLink>
@@ -41,17 +42,18 @@ function NavBar() {
               </li>
             </ul>
             <div>
-              <Route exact path = "/" component={Home}/>
-              <Route path = "/About" component={About}/>
-              <Route path = "/Theology" component={Theology}/>
-              <Route path = "/GravelCycling" component={GravelCycling}/>
-              <Route path = "/BackcountrySkiing" component={BackcountrySkiing}/>
-              <Route path = "/Tenkara" component={Tenkara}/>
-              <Route path = "/Coding" component={Coding}/>
+              <Route exact path="/" component={Home}/>
+              <Route path="/About" component={About}/>
+              <Route path="/Theology" component={Theology}/>
+              <Route path="/GravelCycling" component={GravelCycling}/>
+              <Route path="/BackcountrySkiing" component={BackcountrySkiing}/>
+              <Route path="/Tenkara" component={Tenkara}/>
+              <Route path="/Coding" component={Coding}/>
             </div>
-        </HashRouter>
+          </div>
+      </BrowserRouter>
     )
-};
+}
 
 export default NavBar
 
