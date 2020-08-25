@@ -3491,7 +3491,7 @@ video {
 }
 
 .bg-sayagata {
-  background-image: url('/src/img/sayagata.png');
+  background-image: url(/img/sayagata.png);
 }
 
 .bg-gradient-to-t {
@@ -21563,7 +21563,7 @@ video {
   }
 
   .sm\:bg-sayagata {
-    background-image: url('/src/img/sayagata.png');
+    background-image: url(/img/sayagata.png);
   }
 
   .sm\:bg-gradient-to-t {
@@ -39605,7 +39605,7 @@ video {
   }
 
   .md\:bg-sayagata {
-    background-image: url('/src/img/sayagata.png');
+    background-image: url(/img/sayagata.png);
   }
 
   .md\:bg-gradient-to-t {
@@ -57647,7 +57647,7 @@ video {
   }
 
   .lg\:bg-sayagata {
-    background-image: url('/src/img/sayagata.png');
+    background-image: url(/img/sayagata.png);
   }
 
   .lg\:bg-gradient-to-t {
@@ -75689,7 +75689,7 @@ video {
   }
 
   .xl\:bg-sayagata {
-    background-image: url('/src/img/sayagata.png');
+    background-image: url(/img/sayagata.png);
   }
 
   .xl\:bg-gradient-to-t {

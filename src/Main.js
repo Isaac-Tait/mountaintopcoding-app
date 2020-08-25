@@ -3,16 +3,15 @@ import React from 'react';
 import Header from './Header.js'
 import Image from './Image.js'
 import NavBar from './NavBar.js'
-import Home from './Home.js'
 import Footer from './Footer.js'
+import Home from './Home.js'
 
 function Main() {
     return (
-        <div>
+        <div class="bg-gray-500">
             <Header />
             <Image />
             <NavBar />
-            <Home /> {/*Disabling this module removes the extra state function on the main page... Why?*/}
             <Footer /> 
         </div>
     )

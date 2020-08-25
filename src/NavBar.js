@@ -2,7 +2,7 @@ import React from "react"
 import {
   Route,
   NavLink,
-  BrowserRouter
+  HashRouter
 } from "react-router-dom"
 
 import Home from './Home.js'
@@ -15,12 +15,12 @@ import Coding from './Coding.js'
 
 function NavBar() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div>
           <h2 class="bg-orange-400 text-3xl pl-8">Topics</h2>
             <ul class="pl-12">
               <li>
-                <NavLink to="/"><span role="img" aria-label="Home with garden"></span> - Home</NavLink>
+                <NavLink to="/"><span role="img" aria-label="Home with garden">&#127969;</span> - Home</NavLink>
               </li>
               <li>
                 <NavLink to="/About"><span role="img" aria-label="Question mark">&#10067;</span> - About</NavLink>
@@ -51,7 +51,7 @@ function NavBar() {
               <Route path="/Coding" component={Coding}/>
             </div>
           </div>
-      </BrowserRouter>
+      </HashRouter>
     )
 }
 

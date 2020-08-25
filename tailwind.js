@@ -153,7 +153,7 @@ module.exports = {
     backgroundColor: theme => theme('colors'),
     backgroundImage: {
       none: 'none',
-      'sayagata': "url('/src/img/sayagata.png')",
+      'sayagata': "url(/img/sayagata.png)",
       'gradient-to-t': 'linear-gradient(to top, var(--gradient-color-stops))',
       'gradient-to-tr': 'linear-gradient(to top right, var(--gradient-color-stops))',
       'gradient-to-r': 'linear-gradient(to right, var(--gradient-color-stops))',

@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class BackcountrySkiing extends Component {
     render() {
         return (
-            <div>
+            <div class="p-4">
                 <p>
                 Crunch, crunch, crunch my skin track beats on like a metronome. Giving my thoughts a beat to compose by.
                 <i> <br /> <br />
