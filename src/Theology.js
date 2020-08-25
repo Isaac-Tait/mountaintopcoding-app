@@ -1,10 +1,16 @@
 import React, {Component} from 'react';
+import EpicSunset from "./img/Theology.jpg"
 
 class Theology extends Component {
     render() {
         return (
             <div>
-                <p>
+                <img
+                    class="h-56 rounded-full"
+                    src={EpicSunset}
+                    alt="A glimpse of heaven from Oceanside, CA during an epic sunset after a wild storm June 2019"
+                />
+                <p class="pt-4">
                 "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was 
                 born and I will give you a complete account of the system, and expound the actual teachings of the 
                 great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids 

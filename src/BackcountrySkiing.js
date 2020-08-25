@@ -1,10 +1,16 @@
 import React, {Component} from 'react';
+import BCSkiing from './img/BackcountrySkiing.JPG'
 
 class BackcountrySkiing extends Component {
     render() {
         return (
             <div class="p-4">
-                <p>
+                <img
+                    class="h-56 rounded-full"
+                    src={BCSkiing}
+                    alt="Backcountry skiing near Tomamu Ski Resort in Hokkaido, Japan (near the Terrace of Frost Trees"
+                />
+                <p class="pt-4">
                 Crunch, crunch, crunch my skin track beats on like a metronome. Giving my thoughts a beat to compose by.
                 <i> <br /> <br />
                     What would it feel like I wonder?  Peace and beauty replaced instantly with fear and noise and almost as fast replaced by silence… and blackness? 

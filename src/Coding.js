@@ -1,10 +1,15 @@
 import React, {Component} from 'react';
-
+import HomeOffice from './img/HomeOffice.jpg'
 class Coding extends Component {
     render() {
         return (
             <div>
-                <h2>#dayOneChallenge</h2>
+                <img
+                    class="h-56 rounded-full pt-6"
+                    src={HomeOffice}
+                    alt="My home office setup"
+                />
+                <p class="pt-4">#dayOneChallenge</p>
                     <iframe 
                         height={265} 
                         style={{width: '100%'}} 
@@ -20,7 +25,7 @@ class Coding extends Component {
                             (<a href='https://codepen.io/isaac-tait'>@isaac-tait</a>) on <a href='https://codepen.io'>CodePen</a></span>.
                     </iframe>
 
-                <h2>#dayTwoChallenge</h2>
+                <p>#dayTwoChallenge</p>
                     <iframe 
                         height={265} 
                         style={{width: '100%'}} 

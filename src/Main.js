@@ -4,7 +4,7 @@ import Header from './Header.js'
 import Image from './Image.js'
 import NavBar from './NavBar.js'
 import Footer from './Footer.js'
-import Home from './Home.js'
+//{import Home from './Home.js'}
 
 function Main() {
     return (

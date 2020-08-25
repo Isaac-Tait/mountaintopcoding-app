@@ -6,7 +6,7 @@ class GravelCycling extends Component {
         return (
             <div>
                 <img
-                    class="h-56"
+                    class="h-56 rounded-full"
                     src={GravelBike}
                     alt="My KHS Grit 110 on a gravel road on-board Camp Pendleton California"
                 />
