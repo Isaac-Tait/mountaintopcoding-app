@@ -8,7 +8,7 @@ import Footer from './Footer.js'
 
 function Main() {
     return (
-        <div class="container w-3/4 mx-auto bg-pink-200">
+        <div class="bg-pink-200">
             <Header />
             <Image />
             <NavBar />
