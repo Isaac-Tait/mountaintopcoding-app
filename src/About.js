@@ -1,10 +1,16 @@
 import React, {Component} from "react";
+import Portrait from "./img/Portrait.jpg"
 
 class About extends Component {
     render() {
         return (
-            <div>
-                <p>
+            <div class="mt-12">
+                <img 
+                    class="h-56 rounded-full"
+                    src={Portrait} 
+                    alt="Portrait of Isaac Tait on Falls Creek Trail near Red Rock Flat - Forest Falls, CA"
+                />
+                <p class="pt-4 pl-2">
                     Over the course of the last four years I have built three websites -
                     <a 
                         href="http://www.fallfishtenkara.com" 
@@ -36,12 +42,12 @@ class About extends Component {
                     todays standards. That is the nature of coding & web development.
                 </p>
 
-                <h4>Thank you for visiting and stay tuned as I explore my burgeoning skill sets on this medium - <mark>mountainTopCoding(&#9968;);</mark></h4>
+                <p class="pt-4 pl-2 font-semibold text-red-400">Thank you for visiting and stay tuned as I explore my burgeoning skill sets on this medium - mountainTopCoding(<span role="img" aria-label="mountain with snow-cap">&#127956;</span>);</p>
                 
-                <h2>My Road Map</h2>
+                <p class="pl-2 font-extrabold pt-6 underline">My Road Map</p>
 
                 <ol class="">
-                    <li>
+                    <li class="pt-2">
                         <strong>Learn HTML5</strong> - My first experience with computer coding happened when I was 13. A friend's grandfather 
                         offered a Wednesday evening course on HTML2. If I am totally honest though I initially took the course to see his 
                         granddaughter, Takara. Much to my surprise I became more interested in learning HTML than hoping Takara would notice me..

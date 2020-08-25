@@ -8,7 +8,7 @@ import Home from './Home.js'
 
 function Main() {
     return (
-        <div class="bg-gray-500">
+        <div class="container w-3/4 mx-auto bg-pink-200">
             <Header />
             <Image />
             <NavBar />

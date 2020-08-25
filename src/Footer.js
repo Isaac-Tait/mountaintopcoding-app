@@ -2,7 +2,7 @@ import React from "react"
 
 function Footer() {
     return (
-        <div>
+        <div class="mt-40">
             <h3 class="text-3xl bg-pink-500 pl-8">Contact</h3>
             <a 
                 href="mailto:isaac@mountaintopcoding.com"
