@@ -9,12 +9,16 @@ function Footer() {
                 class="font-bold text-red-600 ml-8 pl-2"
             >Email </a>
             <a 
+                class="external link font-bold text-blue-600 pl-2"
                 href="https://twitter.com/Isaac_Tait_83"
-                class="font-bold text-blue-600 pl-2"
+                target="_blank" 
+                rel="noopener noreferrer"
             >Twitter </a>
             <a 
+                class="external link font-bold text-green-600 pl-2"
                 href="https://github.com/Isaac-Tait"
-                class="font-bold text-green-600 pl-2"
+                target="_blank"  
+                rel="noopener noreferrer"
             >GitHub</a>
         </div>
     )
