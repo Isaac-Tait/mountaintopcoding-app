@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import BCSkiing from './img/BackcountrySkiing.JPG'
+import BCSkiing from './img/BackcountrySkiing.jpg'
 
 class BackcountrySkiing extends Component {
     render() {
