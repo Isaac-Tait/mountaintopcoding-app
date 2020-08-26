@@ -4,7 +4,7 @@ import Portrait from "./img/Portrait.jpg"
 class About extends Component {
     render() {
         return (
-            <div class="mt-12">
+            <div class="h-max-full bg-pink-200 mt-12">
                 <img 
                     class="h-56 rounded-full"
                     src={Portrait} 

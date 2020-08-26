@@ -15,29 +15,29 @@ import Coding from './Coding.js'
 
 function NavBar() {
     return (
-      <HashRouter class="flex-grow">
+      <HashRouter class="">
         <div>
-          <h2 class="bg-orange-400 text-3xl pl-8">Topics</h2>
+          <p class="bg-orange-400 text-3xl pl-8">Topics</p>
             <ul class="pl-12">
-              <li>
+              <li class="text-black hover:text-blue-800 w-20">
                 <NavLink to="/"><span role="img" aria-label="Home with garden">&#127969;</span> - Home</NavLink>
               </li>
-              <li>
+              <li class="text-black hover:text-blue-800 w-20">
                 <NavLink to="/About"><span role="img" aria-label="Question mark">&#10067;</span> - About</NavLink>
               </li>
-              <li>
+              <li class="text-black hover:text-blue-800 w-32">
                 <NavLink to="/Theology"><span role="img" aria-label="Scroll">&#128220;</span> - Theology</NavLink>
               </li>
-              <li>
+              <li class="text-black hover:text-blue-800 w-40">
                 <NavLink to="/GravelCycling"><span role="img" aria-label="Man bicycling">&#128692;</span> - Gravel Cycling</NavLink>
               </li>
-              <li>
+              <li class="text-black hover:text-blue-800 w-48">
                 <NavLink to="/BackcountrySkiing"><span role="img" aria-label="Skier">&#9975;</span> - Backcountry Skiing</NavLink>
               </li>
-              <li>
+              <li class="text-black hover:text-blue-800 w-24">
                 <NavLink to="/Tenkara"><span role="img" aria-label="Fishing pole with a fish">&#127907;</span> - Tenkara</NavLink>
               </li>
-              <li>
+              <li class="text-black hover:text-blue-800 w-324">
                 <NavLink to="/Coding"><span role="img" aria-label="DNA">&#129516;</span> - Coding</NavLink>
               </li>
             </ul>

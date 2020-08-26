@@ -4,7 +4,7 @@ import BCSkiing from './img/BackcountrySkiing.jpg'
 class BackcountrySkiing extends Component {
     render() {
         return (
-            <div class="p-4">
+            <div class="bg-pink-200">
                 <img
                     class="h-56 rounded-full"
                     src={BCSkiing}

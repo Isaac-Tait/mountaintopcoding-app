@@ -3,7 +3,7 @@ import HomeOffice from './img/HomeOffice.jpg'
 class Coding extends Component {
     render() {
         return (
-            <div>
+            <div class="max-h-screen bg-pink-200">
                 <img
                     class="h-56 rounded-full pt-6"
                     src={HomeOffice}

@@ -38,7 +38,7 @@ class Home extends Component {
                         placeholder="Where are you from?"
                     /> 
                     <br />
-                    <p class="inline-block mt-6 ml-2">Welcome <span class="text-red-500">{this.state.firstName ? this.state.firstName : "_______"}</span> from <span class="text-red-500">{this.state.location ? this.state.location : "________"}</span> to my portfolio site - mountainTopCoding(<span role="img" aria-label="mountain with snow-cap">&#127956;</span>);</p>
+                    <p class="mt-6 ml-2">Welcome <span class="text-red-500">{this.state.firstName ? this.state.firstName : "_______"}</span> from <span class="text-red-500">{this.state.location ? this.state.location : "________"}</span> to my portfolio site - mountainTopCoding(<span role="img" aria-label="mountain with snow-cap">&#127956;</span>);</p>
                 </div>
             )
         }

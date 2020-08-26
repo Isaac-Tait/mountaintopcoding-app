@@ -9,10 +9,18 @@ import Footer from './Footer.js'
 function Main() {
     return (
         <div class="h-screen flex flex-col bg-pink-200">
-            <Header />
-            <Image />
-            <NavBar />
-            <Footer />
+            
+                <Header />
+            
+            
+                <Image />
+            
+           
+                <NavBar />
+            
+          
+                <Footer class="item-center"/>
+
         </div>
     )
 }
