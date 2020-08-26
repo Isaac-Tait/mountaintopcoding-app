@@ -5,7 +5,7 @@ function Image() {
     return (
         <div>
             <img 
-                class="h-56 md:rounded-full mx-auto"
+                class="h-64 mt-6 mb-6 md:rounded-full mx-auto"
                 src={Mountain}
                 alt="Mount Baldy's north flank viewed from Pine Peak near Los Angeles, California."
             />
