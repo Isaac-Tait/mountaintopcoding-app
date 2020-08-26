@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import BCSkiing from './img/BackcountrySkiing.jpg'
+import BackcountrySkiing from './img/BackcountrySkiing.jpg'
 
 class BackcountrySkiing extends Component {
     render() {
@@ -7,7 +7,7 @@ class BackcountrySkiing extends Component {
             <div class="bg-pink-200">
                 <img
                     class="h-56 rounded-full"
-                    src={BCSkiing}
+                    src={BackcountrySkiing}
                     alt="Backcountry skiing near Tomamu Ski Resort in Hokkaido, Japan (near the Terrace of Frost Trees"
                 />
                 <p class="pt-4">
