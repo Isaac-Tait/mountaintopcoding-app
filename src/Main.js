@@ -12,15 +12,11 @@ function Main() {
             
                 <Header />
             
-            
                 <Image />
             
-           
                 <NavBar />
             
-          
-                <Footer class="item-center"/>
-
+                <Footer />
         </div>
     )
 }

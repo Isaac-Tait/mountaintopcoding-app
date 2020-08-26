@@ -1,13 +1,12 @@
-import React, {Component} from 'react';
-import BackcountrySkiing from './img/BackcountrySkiing.jpg'
+import React from 'react';
+import BCSki from './img/Skiing.jpg'
 
-class BackcountrySkiing extends Component {
-    render() {
+function BackcountrySkiing() {
         return (
             <div class="bg-pink-200">
                 <img
                     class="h-56 rounded-full"
-                    src={BackcountrySkiing}
+                    src={BCSki}
                     alt="Backcountry skiing near Tomamu Ski Resort in Hokkaido, Japan (near the Terrace of Frost Trees"
                 />
                 <p class="pt-4">
@@ -37,7 +36,6 @@ class BackcountrySkiing extends Component {
                 </p>
             </div>
         )
-    }
 }
 
 export default BackcountrySkiing
