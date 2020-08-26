@@ -8,11 +8,11 @@ import Footer from './Footer.js'
 
 function Main() {
     return (
-        <div class="flex-col bg-pink-200">
+        <div class="h-screen flex flex-col bg-pink-200">
             <Header />
             <Image />
             <NavBar />
-            <Footer /> 
+            <Footer />
         </div>
     )
 }

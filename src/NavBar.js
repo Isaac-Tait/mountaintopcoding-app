@@ -15,7 +15,7 @@ import Coding from './Coding.js'
 
 function NavBar() {
     return (
-      <HashRouter>
+      <HashRouter class="flex-grow">
         <div>
           <h2 class="bg-orange-400 text-3xl pl-8">Topics</h2>
             <ul class="pl-12">

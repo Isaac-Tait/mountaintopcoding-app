@@ -2,11 +2,11 @@ import React from "react"
 
 function Footer() {
     return (
-        <div class="mt-20">
-            <h3 class="text-3xl bg-pink-500 pl-8">Contact</h3>
+        <div class="h-screen w-full text-center">
+            <h3 class="text-3xl bg-pink-500 pl-2">Contact</h3>
             <a 
+                class="font-bold text-red-600 pl-2"
                 href="mailto:isaac@mountaintopcoding.com?subject=I%20am%20contacting%20you%20through%20your%20portfolio%20site&body=Hi%20Isaac,"
-                class="font-bold text-red-600 ml-8 pl-2"
                 rel="noopener noreferrer"
             >Email </a>
             <a 
