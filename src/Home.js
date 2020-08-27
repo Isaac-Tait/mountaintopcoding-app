@@ -19,7 +19,7 @@ class Home extends Component {
 
         render() {
             return (
-                <div>
+                <div class="bg-pink-200">
                   <input
                         class="mt-8 ml-2"
                         type="text"
