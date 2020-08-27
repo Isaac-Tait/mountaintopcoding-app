@@ -19,10 +19,10 @@ function NavBar() {
         <div>
           <p class="bg-orange-400 text-3xl pl-8">Topics</p>
             <ul class="pl-12">
-              <li class="text-black hover:text-blue-800 w-20">
+              <li class="text-black hover:text-blue-800 w-32">
                 <NavLink to="/"><span role="img" aria-label="Home with garden">&#127969;</span> - Home</NavLink>
               </li>
-              <li class="text-black hover:text-blue-800 w-20">
+              <li class="text-black hover:text-blue-800 w-32">
                 <NavLink to="/About"><span role="img" aria-label="Question mark">&#10067;</span> - About</NavLink>
               </li>
               <li class="text-black hover:text-blue-800 w-32">
