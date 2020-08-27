@@ -4,7 +4,7 @@ import EpicSunset from "./img/Theology.jpg"
 class Theology extends Component {
     render() {
         return (
-            <div>
+            <div class="bg-pink-200">
                 <img
                     class="h-56 rounded-full"
                     src={EpicSunset}

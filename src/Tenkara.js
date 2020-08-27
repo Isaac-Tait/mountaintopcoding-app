@@ -4,7 +4,7 @@ import TenkaraPhoto from './img/Tenkara.jpg'
 class Tenkara extends Component {
     render() {
         return (
-            <div>
+            <div class="bg-pink-200">
                 <p class="mt-12">
                     Please visit my site 
                     <a 

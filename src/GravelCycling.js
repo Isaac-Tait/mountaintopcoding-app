@@ -4,7 +4,7 @@ import GravelBike from "./img/GravelBike.jpg";
 class GravelCycling extends Component {
     render() {
         return (
-            <div>
+            <div class="bg-pink-200">
                 <img
                     class="h-56 rounded-full"
                     src={GravelBike}
