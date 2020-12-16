@@ -38,13 +38,10 @@ class Home extends Component {
                         placeholder="Where are you from?"
                     /> 
                     <br />
-                    <p class="mt-6">Welcome <span class="text-red-500">{this.state.firstName ? this.state.firstName : "_______"}</span> from <span class="text-red-500">{this.state.location ? this.state.location : "________"}</span> to my portfolio site - mountainTopCoding(<span role="img" aria-label="mountain with snow-cap">&#127956;</span>);</p>
-                    <p class="mt-10">Lorem ipsum dolor sit amet, an mel eligendi argumentum, ea eum veri oblique omittam. Cu utinam facilisis sed, usu ex voluptatum temporibus, sed prima iriure consectetuer ex. 
-                        Ornatus disputando est at. Mucius noster expetendis te vim, vocent splendide at nam, in officiis similique his. Vim liberavisse concludaturque te, an omnis appareat vim, 
-                        usu ex possim sententiae. Qui et inani accusata moderatius. Ut ignota disputationi usu, eam te explicari percipitur.
-                        Ut est meliore vocibus. Accusamus patrioque mei cu. Vel an antiopam gubergren. Dolor dolorum ceteros pri ne, eos id adhuc iisque ancillae, quo verterem rationibus ex. 
-                        Ad qui debet vivendo definitiones.
-                    </p>
+                    <p class="mt-6 ml-4">Welcome <span class="text-red-500">{this.state.firstName ? this.state.firstName : "_______"}</span> from <span class="text-red-500">{this.state.location ? this.state.location : "________"}</span> to my portfolio site - mountainTopCoding(<span role="img" aria-label="mountain with snow-cap">&#127956;</span>);</p>
+                    <p class="mt-10 ml-4">For a long time now I have wanted to start my own coding blog. Awhile back I was having some problems with another one of my projects and the support team who helped resolve my issue pointed to me to their Hashnode community. I had never heard of Hashnode before so I went and checked it out. Not only is it a cool community of like minded hackers but they had a very cool solution for setting up your own blog.</p> 
+                    <p class="mt-8 ml-4">So, I gave it a shot and rather effortlessly I was able to setup my very own coding blog!</p> 
+                    <p class="mt-8 ml-4">Check out the official mountainTopCoding(&#127956;); blog <span class="text-red-500"><a href="https://blog.mountaintopcoding.com" target="_blank" rel="noopener noreferrer">here</a></span>!</p>
                 </div>
             )
         }
